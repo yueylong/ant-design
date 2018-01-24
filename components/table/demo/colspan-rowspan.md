@@ -28,7 +28,7 @@ const renderContent = (value, row, index) => {
     props: {},
   };
   if (index === 4) {
-    obj.props.colSpan = 0;
+    obj.props.colSpan = 1;
   }
   return obj;
 };
